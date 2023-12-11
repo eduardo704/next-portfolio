@@ -3,6 +3,30 @@
 @tailwind utilities;
 
 :root {
+  /* CSS HEX */
+  --timberwolf: #ddd5d0ff;
+  --silver: #cfc0bdff;
+  --ash-gray: #b8b8aaff;
+  --battleship-gray: #7f9183ff;
+  --feldgrau: #586f6bff;
+
+  /* CSS HSL */
+  --timberwolf: hsla(23, 16%, 84%, 1);
+  --silver: hsla(10, 16%, 78%, 1);
+  --ash-gray: hsla(60, 9%, 69%, 1);
+  --battleship-gray: hsla(133, 8%, 53%, 1);
+  --feldgrau: hsla(170, 12%, 39%, 1);
+
+}
+
+.circle{
+  width: 24px;
+  height: 24px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,9 +38,9 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +48,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
