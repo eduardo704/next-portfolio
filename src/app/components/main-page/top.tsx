@@ -10,8 +10,9 @@ export default function Top() {
         <div className='flex container mx-auto px-12 mt-8 columns-2 text-lg'>
             <div className='flex flex-col items-center mr-12  px-10'>
                 <img src="eu.jpeg" className="rounded-full w-48" alt="" />
-                <span className="mt-4">Eduardo Vargas</span>
-                <span className="mt-2">Senior FullStack Engineer</span>
+                <span className="mt-4 text-gray-600">Eduardo Vargas</span>
+                <span className=" text-gray-600">Senior FullStack Engineer</span>
+                <span className=" text-gray-600">eduardo704@gmail.com</span>
                 <div className="mt-4 w-full flex gap-8 justify-center">
                     <a target='_blank' href='https://github.com/eduardo704'> <FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                     <a target='_blank' href='https://www.linkedin.com/in/eduardo704/'> <FontAwesomeIcon size='2xl' icon={faLinkedin} /></a>
@@ -20,9 +21,9 @@ export default function Top() {
                 </div>
             </div>
             <div className='w-3/4'>
-                <h2 className='text-5xl	 font-bold mb-8'>Biography</h2>
-                <p className='mt-2'>{bio}</p>
-                <p className='mt-2'>{bio2}</p>
+                <h2 className='text-5xl	 font-bold mb-8 text-sky-600'>Biography</h2>
+                <p className='mt-2 text-gray-600'>{bio}</p>
+                <p className='mt-2 text-gray-600'>{bio2}</p>
             </div>
         </div>
     )
