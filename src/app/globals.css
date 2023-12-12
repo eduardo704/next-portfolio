@@ -19,12 +19,12 @@
 
 }
 
-.circle{
+.circle {
   width: 24px;
   height: 24px;
-  background-color: blue;
   border-radius: 50%;
 }
+
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
