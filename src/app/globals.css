@@ -25,7 +25,9 @@
   border-radius: 50%;
 }
 
-
+section:nth-of-type(odd) {
+  background: #f7f7f7;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
