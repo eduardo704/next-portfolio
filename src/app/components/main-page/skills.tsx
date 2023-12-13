@@ -10,7 +10,7 @@ export default function Skills() {
             <div className="container">
                 <h2 className="text-5xl text-center mb-8 mx-auto">Skills</h2>
                 {/* <h4 className="font-bold  text-center text-sky-600 text-3xl mb-8">Core:</h4> */}
-                <div className='grid grid-cols-3 gap-12 mx-16'>
+                <div className='grid md:grid-cols-3 gap-12 md:mx-16'>
                     <div className="border-sky-600 border p-6 w-full flex items-center flex-col">
                         <FontAwesomeIcon color='#C3002F' size='8x' icon={faAngular} />
                         <h4 className="my-2 text-xl text-center text-sky-600">Angular</h4>
@@ -82,7 +82,7 @@ export default function Skills() {
                     </div>
                 </div>
                 <h2 className="text-5xl text-center my-8">Hobbies</h2>
-                <div className='grid grid-cols-3 gap-12 mx-16'>
+                <div className='grid md:grid-cols-3 gap-12 md:mx-16'>
                     <div className="border-sky-600 border p-6 w-full flex items-center flex-col">
                         <FontAwesomeIcon size='8x' color='#5b6d2f' icon={faChessPawn} />
                         <h4 className="my-2 text-xl text-center text-sky-600">Chess</h4>
@@ -109,7 +109,7 @@ export default function Skills() {
                     </div>
                 </div>
                 <h2 className="text-5xl text-center my-8">Languages</h2>
-                <div className='grid grid-cols-3 gap-12 mx-16'>
+                <div className='grid md:grid-cols-3 gap-12 md:mx-16'>
                     <div className="border-sky-600 border p-6 w-full flex items-center flex-col">
                         <h4 className="my-2 text-xl text-center text-sky-600">Portuguese</h4>
                         <div className="w-full bg-gray-300 rounded-full h-8 dark:bg-gray-700  flex flex-col justify-center items-start">

@@ -5,8 +5,8 @@ export default function Carreer() {
             <div className="container">
                 <h2 className="text-5xl text-center mb-8">Experience</h2>
                 <div>
-                    <div className="grid grid-cols-2 justify-items-end">
-                        <div className="flex items-center">
+                    <div className="grid md:grid-cols-2 justify-items-end">
+                        <div className=" items-center hidden md:flex">
                             <div className="flex flex-col items-center text-gray-600 text-2xl">
                                 <span>Nov 2018 - Current</span>
                                 <span>São Paulo, Brasil</span>
@@ -29,7 +29,7 @@ export default function Carreer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="flex items-center">
+                        <div className=" items-center hidden md:flex">
                             <div className="flex flex-col items-center text-gray-600 text-2xl">
                                 <span>Oct 2017- Oct 2018</span>
                                 <span>Budapest, Hungary</span>
@@ -52,7 +52,7 @@ export default function Carreer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="flex items-center">
+                        <div className=" items-center hidden md:flex">
                             <div className="flex flex-col items-center text-gray-600 text-2xl">
                                 <span>Jan 2016 - Sep 2017</span>
                                 <span>Budapest, Hungary</span>
@@ -76,7 +76,7 @@ export default function Carreer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="flex items-center">
+                        <div className="hidden md:flex items-center">
                             <div className="flex flex-col items-center text-gray-600 text-2xl">
                                 <span>Sep 2014 - Dez 2015</span>
                                 <span>Londrina, Brazil</span>
