@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Skills() {
     return (
         <section>
-            <div className="container mx-auto px-12 py-12 mt-8">
-                <h2 className="text-5xl text-center mb-8">Skills</h2>
+            <div className="container">
+                <h2 className="text-5xl text-center mb-8 mx-auto">Skills</h2>
                 {/* <h4 className="font-bold  text-center text-sky-600 text-3xl mb-8">Core:</h4> */}
                 <div className='grid grid-cols-3 gap-12 mx-16'>
                     <div className="border-sky-600 border p-6 w-full flex items-center flex-col">

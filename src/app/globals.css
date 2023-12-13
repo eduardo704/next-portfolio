@@ -28,6 +28,11 @@
 section:nth-of-type(odd) {
   background: #f7f7f7;
 }
+
+.container {
+  @apply px-12 py-12 mx-auto;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

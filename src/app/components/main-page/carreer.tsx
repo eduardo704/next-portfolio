@@ -2,7 +2,7 @@
 export default function Carreer() {
     return (
         <section>
-            <div className="container mx-auto px-12 mt-8">
+            <div className="container">
                 <h2 className="text-5xl text-center mb-8">Experience</h2>
                 <div>
                     <div className="grid grid-cols-2 justify-items-end">
@@ -16,7 +16,7 @@ export default function Carreer() {
                                 <div className="linha h-1/2 border-r border-sky-600	"></div>
                             </div>
                         </div>
-                        <div className="border-sky-600 border p-6 w-full">
+                        <div className="border-sky-600 border p-6 w-11/12 justify-self-start">
                             <h4 className="font-bold text-sky-600 text-2xl">Senior Full Stack Consultant</h4>
                             <h6 className="font-bold text-gray-400 text-lg">Accenture</h6>
                             <div>
@@ -40,7 +40,7 @@ export default function Carreer() {
                                 <div className="linha h-1/2 border-r border-sky-600	"></div>
                             </div>
                         </div>
-                        <div className="border-sky-600 border p-6 mt-6 w-full">
+                        <div className="border-sky-600 border p-6 mt-6 w-11/12 justify-self-start">
                             <h4 className="font-bold text-sky-600 text-2xl">Angular Engineer</h4>
                             <h6 className="font-bold text-gray-400 text-lg">BlackRock</h6>
                             <div>
@@ -63,7 +63,7 @@ export default function Carreer() {
                                 <div className="linha h-1/2 border-r border-sky-600	"></div>
                             </div>
                         </div>
-                        <div className="border-sky-600 border p-6 mt-6 w-full">
+                        <div className="border-sky-600 border p-6 mt-6 w-11/12 justify-self-start">
                             <h4 className="font-bold text-sky-600 text-2xl">Junior Java Web Developer</h4>
                             <h6 className="font-bold text-gray-400 text-lg">ItWare</h6>
                             <div>
@@ -87,7 +87,7 @@ export default function Carreer() {
                                 <div className="linha h-1/2 border-r border-sky-600	"></div>
                             </div>
                         </div>
-                        <div className="border-sky-600 border p-6 mt-6 w-full">
+                        <div className="border-sky-600 border p-6 mt-6 w-11/12 justify-self-start">
                             <h4 className="font-bold text-sky-600 text-2xl">Web Developer-Java</h4>
                             <h6 className="font-bold text-gray-400 text-lg">DRZ - Geotecnologia</h6>
                             <div>

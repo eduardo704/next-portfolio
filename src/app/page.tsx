@@ -6,11 +6,9 @@ import Skills from './components/main-page/skills'
 export default function Home() {
   return (
     <main>
-      <div className="container">
         <Top></Top>
         <Carreer></Carreer>
         <Skills></Skills>
-      </div>
     </main>
   )
 }
